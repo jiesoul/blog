@@ -1,14 +1,14 @@
-{:site-title           "My Awesome Blog"
- :author               "Bob Bobbert"
- :description          "This blog is awesome"
- :site-url             "http://blogawesome.com/"
+{:site-title           "张运杰的个人博客"
+ :author               "张运杰"
+ :description          "一点一滴汇成河"
+ :site-url             "http://zhangyunjie.com/"
  :post-root            "posts"
  :page-root            "pages"
  :post-root-uri        "posts-output"
  :page-root-uri        "pages-output"
  :tag-root-uri         "tags-output"
  :author-root-uri      "authors-output"
- :blog-prefix          "/blog"
+ :blog-prefix          ""
  :rss-name             "feed.xml"
  :rss-filters          ["cryogen"]
  :recent-posts         3
@@ -18,10 +18,10 @@
  :sass-path            "sass"
  :compass-path         "compass"
  :theme                "blue"
- :resources            ["img"]
+ :resources            ["img" "CNAME"]
  :keep-files           [".git"]
- :disqus?              false
- :disqus-shortname     ""
+ :disqus?              true
+ :disqus-shortname     "blog-jiesoul.disqus.com"
  :ignored-files        [#"\.#.*" #".*\.swp$"]
  :posts-per-page       5
  :blocks-per-preview   2
